@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
+import Chart from './chart.js'
 import Layout from '../components/layout'
 
-const SecondPage = () => (
-  <Layout>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
+const SbuxChart = () => (
+  <div>
+    <Layout>
+    </Layout>
+    <Chart/>
+  </div>
+
 )
 
-export default SecondPage
+export default SbuxChart
