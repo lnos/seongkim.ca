@@ -1,3 +1,29 @@
-app{
-    background-image: linear-gradient(90deg,#c3b9d7 0,#a291c5);
+.background{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    background-image: linear-gradient(90deg,#C9D6FF 0,#E2E2E2);
+}
+.app{
+    margin-top: 56px;
+    max-width: 1440px;
+    width: calc(100%-180px);
+    background-color: white;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+}
+
+#CIBC{
+    text-decoration: none;
+    background: linear-gradient(180deg,hsla(0,0%,85%,0),hsla(0,0%,91%,0) 10%,hsla(0,0%,85%,.25) 0,hsla(0,0%,85%,.25));
+    color: inherit;
+}
+
+.projects{
+    margin-bottom: 400px;
+}
+
+h2{
+    color: red;
 }

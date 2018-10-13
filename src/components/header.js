@@ -1,11 +1,12 @@
 import React from 'react'
+import './header.css'
 import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <div
+    className="navbar"
     style={{
-      background: 'white',
-      marginBottom: '1.45rem',
+      marginBottom: '1.45rem'
     }}
   >
     <div
@@ -16,7 +17,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h3 style={{ margin: 0 }}>
-        <Link
+        {/* <Link
           to="/"
           style={{
             color: 'black',
@@ -36,10 +37,10 @@ const Header = ({ siteTitle }) => (
           }}
         >
           About
-        </Link>
+        </Link> */}
 
         <Link
-          to="/resume"
+          to="/resume.pdf"
           style={{
             color: 'black',
             textDecoration: 'none',
