@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -38,17 +38,25 @@ const Header = ({ siteTitle }) => (
         >
           About
         </Link> */}
-
-        <Link
-          to="/resume.pdf"
+        <a 
+          href="/resume.pdf"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+            marginRight: '20px'
+          }}
+        >
+          Resume 
+        </a>
+        <a 
+          href="https://github.com/lnos"
           style={{
             color: 'black',
             textDecoration: 'none',
           }}
         >
-          Resume 
-        </Link>
-
+          Github 
+        </a>
       </h3>
     </div>
   </div>

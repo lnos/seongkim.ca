@@ -6,7 +6,6 @@ const IndexPage = () => (
   <div className="background">
     <div className="app">
       <Layout>
-        <h2>Website still under development!</h2>
         <h3>Seong is a software developer in Toronto</h3>
         <h3>He is currently building digital solution for <a ID="CIBC" href="https://www.cibc.com">CIBC</a></h3>
         <div className="projects">
