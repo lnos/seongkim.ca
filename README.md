@@ -1,4 +1,4 @@
-### Personal website for Seong Kim
+# Personal website for Seong Kim
 
 Built using Gatsby + Netlify
 

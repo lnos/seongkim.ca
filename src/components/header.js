@@ -39,14 +39,14 @@ const Header = ({ siteTitle }) => (
           About
         </Link> */}
         <a 
-          href="/resume.pdf"
+          href="https://www.linkedin.com/in/seong-kim-ca/"
           style={{
             color: 'black',
             textDecoration: 'none',
             marginRight: '20px'
           }}
         >
-          Resume 
+          Linkedin 
         </a>
         <a 
           href="https://github.com/lnos"
