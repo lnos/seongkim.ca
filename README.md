@@ -1,4 +1,5 @@
-##Personal website for Seong Kim
+### Personal website for Seong Kim
+
 Built using Gatsby + Netlify
 
 Still under development, but feel free to use it as a template!

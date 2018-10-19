@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 class Chart extends Component {
 
   componentDidMount(){
+    
     // bb.generate({
     //   data: {
     //     x: "x",
